@@ -1,0 +1,30 @@
+.osd-search-page {max-width:960px; margin:0 auto; padding:28px 20px 60px; box-sizing:border-box; font:16px/1.6 Poppins,Arial,sans-serif; color:#555;}
+.osd-search-page h1 {font:30px Antonio,Arial,sans-serif;color:#ba2028;margin:0 0 24px;}
+#osd-search-form {display:flex;flex-wrap:wrap;gap:10px;}
+#osd-search-form label {width:100%;}
+#osd-search-form input {min-width:150px;flex:1;border:1px solid #aaa;border-radius:4px;padding:12px;font:inherit;}
+#osd-search-form button,#osd-contact-form button {border:0;background:#ba2028;color:white;border-radius:4px;padding:12px 18px;font:inherit;cursor:pointer;}
+#osd-search-results {list-style:none;padding:0;}
+#osd-search-results li {border-bottom:1px solid #ddd;padding:18px 0;}
+#osd-search-results a {color:#a71720;font-weight:600;font-size:18px;}
+#osd-search-results p {margin:6px 0 0;}
+#osd-contact-form {font:14px/1.6 Poppins,Arial,sans-serif;color:#555;padding:12px;box-sizing:border-box;}
+#osd-contact-form label {display:block;margin-top:15px;}
+#osd-contact-form input,#osd-contact-form textarea {display:block;box-sizing:border-box;width:100%;padding:10px;border:1px solid #aaa;border-radius:3px;font:inherit;}
+#osd-contact-form textarea {min-height:160px;resize:vertical;}
+#osd-contact-form button {margin-top:15px;}
+#osd-contact-form button:disabled {opacity:.65;}
+#osd-contact-form .osd-honeypot {position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden;}
+#osd-contact-form a {color:#a71720;text-decoration:underline;}
+#osd-contact-form .osd-contact-hint {font-size:13px;margin-top:16px;}
+#osd-contact-form [role=status] {margin:12px 0;font-weight:600;}
+#osd-contact-form [role=status]:empty {display:none;}
+@media(max-width:479px){.osd-search-page{padding:24px 12px 40px;} #osd-contact-form{padding:8px;}}
+
+#imContent.osd-search-content {display:block; width:100%;}
+#imContent.osd-search-content .osd-search-page {width:100%;}
+@media(max-width:479px){
+ #imContent.osd-contact-content #imCell_6 {display:grid;grid-column:2 / 38;grid-row:4 / 5;}
+ #imContent.osd-contact-content #imCell_399 {grid-row:5 / 6;}
+ #imContent.osd-contact-content #imCell_412 {grid-row:6 / 7;}
+}

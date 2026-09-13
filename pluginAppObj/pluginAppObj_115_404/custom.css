@@ -1,0 +1,263 @@
+/* Button style */
+#pluginAppObj_115_404 .pluginAppObj_115_404-button {
+    width: 60px;
+    height: 60px;
+    color: rgba(255, 255, 255, 1);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    max-width: 100%;
+    text-decoration: none;
+    line-height: 16px;
+    overflow: hidden;
+}
+
+#pluginAppObj_115_404 .btn-tdiv{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+#pluginAppObj_115_404 .btn-trdiv{
+    display: table-row;
+    width: 100%;
+    height: 100%;
+}
+#pluginAppObj_115_404 .btn-tcdiv{
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    vertical-align: middle;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: scale(1.0);
+    transform:  scale(1.0);
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+/* Background effect color */
+#pluginAppObj_115_404 .bg-effect-style.hvr-outline-out:before {
+    background: rgba(255, 255, 255, 1);
+}
+
+/* Background effect: 'Background fade' fix (no ::before element)*/
+#pluginAppObj_115_404 .hvr-fade:hover,
+#pluginAppObj_115_404 .hvr-fade:focus,
+#pluginAppObj_115_404 .hvr-fade:active {
+    background: rgba(255, 255, 255, 1);
+    background-repeat: no-repeat;
+}
+#pluginAppObj_115_404 .hvr-back-pulse:hover, 
+#pluginAppObj_115_404 .hvr-back-pulse:focus, 
+#pluginAppObj_115_404 .hvr-back-pulse:active {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/* Border effect color */
+#pluginAppObj_115_404 .border-effect-style {
+    box-shadow: inset 0 0 0 2px transparent, 0 0 1px rgba(0, 0, 0, 0);
+}
+
+#pluginAppObj_115_404 .border-effect-style:before {
+    border-color: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 1);
+}
+
+/* Border effect: fix (no background for these effects) */
+#pluginAppObj_115_404 .hvr-ripple-out:before,
+#pluginAppObj_115_404 .hvr-ripple-in:before,
+#pluginAppObj_115_404 .hvr-outline-out:before,
+#pluginAppObj_115_404 .hvr-outline-in:before,
+#pluginAppObj_115_404 .hvr-trim:before {
+    background: none !important;
+}
+
+/* Border effect: fix (no background for these effects) */
+#pluginAppObj_115_404 .hvr-hollow:hover,
+#pluginAppObj_115_404 .hvr-hollow:focus,
+#pluginAppObj_115_404 .hvr-hollow:active{
+    background: none !important;
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 1), 0 0 1px rgba(0, 0, 0, 0);
+}
+
+/* Border effect fix (need original background) */
+#pluginAppObj_115_404 .hvr-reveal:before{
+    background: transparent;
+}
+
+#pluginAppObj_115_404 .hvr-border-fade:hover, #pluginAppObj_115_404 .hvr-border-fade:focus, #pluginAppObj_115_404 .hvr-border-fade:active {
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 1), 0 0 1px rgba(0, 0, 0, 0);
+}
+
+/*------ START CUSTOMIZING SHADOW COLOR -----------*/
+#pluginAppObj_115_404 .hvr-glow:hover, #pluginAppObj_115_404 .hvr-glow:focus, #pluginAppObj_115_404 .hvr-glow:active {
+  box-shadow: 0 0 8px rgba(32, 152, 209, 1);
+}
+
+#pluginAppObj_115_404 .hvr-shadow:hover, #pluginAppObj_115_404 .hvr-shadow:focus, #pluginAppObj_115_404 .hvr-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(32, 152, 209, 1);
+}
+
+#pluginAppObj_115_404 .hvr-grow-shadow:hover, #pluginAppObj_115_404 .hvr-grow-shadow:focus, #pluginAppObj_115_404 .hvr-grow-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(32, 152, 209, 1);
+}
+
+#pluginAppObj_115_404 .hvr-box-shadow-outset:hover, #pluginAppObj_115_404 .hvr-box-shadow-outset:focus, #pluginAppObj_115_404 .hvr-box-shadow-outset:active {
+  box-shadow: 2px 2px 2px rgba(32, 152, 209, 1);
+}
+
+#pluginAppObj_115_404 .hvr-box-shadow-inset:hover, #pluginAppObj_115_404 .hvr-box-shadow-inset:focus, #pluginAppObj_115_404 .hvr-box-shadow-inset:active {
+  box-shadow: inset 2px 2px 2px rgba(32, 152, 209, 1), 0 0 1px rgba(0, 0, 0, 0);
+  /* Hack to improve aliasing on mobile/tablet devices */
+}
+/* Only this, cause it hide the shadow*/
+#pluginAppObj_115_404 .hvr-float-shadow{
+  overflow: visible;
+}
+
+#pluginAppObj_115_404 .hvr-float-shadow:before {
+  background: -webkit-radial-gradient(center, ellipse, rgba(32, 152, 209, 1) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at center, rgba(32, 152, 209, 1) 0%, rgba(0, 0, 0, 0) 80%);
+}
+
+#pluginAppObj_115_404 .hvr-shadow-radial:before {
+  background: -webkit-radial-gradient(50% 150%, ellipse, rgba(32, 152, 209, 1) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at 50% 150%, rgba(32, 152, 209, 1) 0%, rgba(0, 0, 0, 0) 80%);
+}
+
+#pluginAppObj_115_404 .hvr-shadow-radial:after {
+  background: -webkit-radial-gradient(50% -50%, ellipse, rgba(32, 152, 209, 1) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at 50% -50%, rgba(32, 152, 209, 1) 0%, rgba(0, 0, 0, 0) 80%);
+}
+
+#pluginAppObj_115_404 .hvr-shadow-radial {
+    overflow: inherit !important;
+}
+
+/*------ END CUSTOMIZING SHADOW COLOR -----------*/
+
+/*------ START CUSTOMIZING BORDER SIZE -----------*/
+#pluginAppObj_115_404 .hvr-border-fade:hover, #pluginAppObj_115_404 .hvr-border-fade:focus, #pluginAppObj_115_404 .hvr-border-fade:active {
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 1), 0 0 1px rgba(0, 0, 0, 0);
+}
+
+#pluginAppObj_115_404 .hvr-trim:before {
+  border: rgba(255, 255, 255, 1) solid 2px;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+}
+
+#pluginAppObj_115_404 .hvr-ripple-out:before {
+  border: rgba(255, 255, 255, 1) solid 2px;
+}
+@-webkit-keyframes hvr-ripple-out {
+  100% {
+    top: -4px;
+    right: -4px;
+    bottom: -4px;
+    left: -4px;
+    opacity: 0;
+  }
+}
+
+@keyframes hvr-ripple-out {
+  100% {
+    top: -4px;
+    right: -4px;
+    bottom: -4px;
+    left: -4px;
+    opacity: 0;
+  }
+}
+
+#pluginAppObj_115_404 .hvr-ripple-in:before {
+  border: rgba(255, 255, 255, 1) solid 2px;
+  top: -4px;
+  right: -4px;
+  bottom: -4px;
+  left: -4px;
+}
+
+#pluginAppObj_115_404 .hvr-outline-out:before {
+  border: rgba(255, 255, 255, 1) solid 2px;
+
+}
+#pluginAppObj_115_404 .hvr-outline-out:hover:before, .hvr-outline-out:focus:before, .hvr-outline-out:active:before {
+  top: -4px;
+  right: -4px;
+  bottom: -4px;
+  left: -4px;
+}
+
+#pluginAppObj_115_404 .hvr-outline-in:before {
+  border: rgba(255, 255, 255, 1) solid 2px;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+}
+#pluginAppObj_115_404 .hvr-outline-in:hover:before, .hvr-outline-in:focus:before, .hvr-outline-in:active:before {
+  top: -4px;
+  right: -4px;
+  bottom: -4px;
+  left: -4px;
+}
+
+#pluginAppObj_115_404 .hvr-round-corners:hover, .hvr-round-corners:focus, .hvr-round-corners:active {
+  border-radius:2px;
+}
+
+#pluginAppObj_115_404 .hvr-underline-from-left:before,
+#pluginAppObj_115_404 .hvr-underline-from-center:before,
+#pluginAppObj_115_404 .hvr-underline-from-right:before,
+#pluginAppObj_115_404 .hvr-overline-from-left:before,
+#pluginAppObj_115_404 .hvr-overline-from-center:before,
+#pluginAppObj_115_404 .hvr-overline-from-right:before{
+    height: 2px;
+}
+
+#pluginAppObj_115_404 .hvr-reveal:hover:before, #pluginAppObj_115_404 .hvr-reveal:focus:before, #pluginAppObj_115_404 .hvr-reveal:active:before {
+  border-width: 2px;
+}
+
+#pluginAppObj_115_404 .hvr-underline-reveal:before{
+    height: 2px;
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+}
+
+#pluginAppObj_115_404 .hvr-overline-reveal:before {
+  height: 2px;
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+}
+#pluginAppObj_115_404 .hvr-underline-reveal:hover:before, 
+#pluginAppObj_115_404 .hvr-underline-reveal:focus:before, 
+#pluginAppObj_115_404 .hvr-underline-reveal:active:before,
+#pluginAppObj_115_404 .hvr-overline-reveal:hover:before, 
+#pluginAppObj_115_404 .hvr-overline-reveal:focus:before, 
+#pluginAppObj_115_404 .hvr-overline-reveal:active:before {
+-webkit-transform: translateY(0);
+transform: translateY(0);
+}
+
+#pluginAppObj_115_404 .hvr-border-background-switch {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 1), 0 0 1px rgba(0, 0, 0, 0);
+}
+#pluginAppObj_115_404 .hvr-border-background-switch:hover,
+#pluginAppObj_115_404 .hvr-border-background-switch:focus,
+#pluginAppObj_115_404 .hvr-border-background-switch:active {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: inset 0 0 0 2px transparent, 0 0 1px rgba(0, 0, 0, 0);
+}
+
+}
+
+/*------ END CUSTOMIZING BORDER SIZE -----------*/

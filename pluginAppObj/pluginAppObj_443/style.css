@@ -1,0 +1,38 @@
+
+#pluginAppObj_443_wrapper{
+    z-index: 999999999999!important;
+}
+#pluginAppObj_443{
+    z-index: 999999999999!important;
+}
+#icm_stickybuttonpluginAppObj_443 {
+    background-color:rgba(236, 197, 104, 1);
+    padding: 5px 20px 10px 20px;
+    color:rgba(255, 255, 255, 1);
+    position:fixed;
+    text-align: center;
+    overflow: hidden;
+    
+    border-radius: 0px 0px 10px 10px; /* Cambiamo la posizione del radius in base alla posizione della label */
+    z-index: 999999999999!important;
+    font:16px 'Poppins';
+    font-weight: normal;
+    font-style: normal;
+    /* line-height:19.2px; */
+    transition: transform 1s;
+    transform: rotate(-90deg);
+}
+
+#icm_stickybuttonpluginAppObj_443.icm_stickybuttonhidden {
+    transform: translate(-200%,0) rotate(-90deg); /*Top negativo*/
+}
+
+#icm_stickybuttonpluginAppObj_443>img {
+    display:inline-block;
+    max-width:0px;
+    border:0;
+    height: auto;
+    max-height:0px;
+    
+    vertical-align: middle;
+}

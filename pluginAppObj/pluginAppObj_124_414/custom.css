@@ -1,0 +1,118 @@
+#pluginAppObj_124_414{
+    display: inline-block;
+    max-width: 100%;
+	font-size: 0;
+	width: 2560px;
+    vertical-align: bottom;
+}
+
+#swiper_pluginAppObj_124_414{
+	position: relative;
+	display: inline-block;
+}
+
+#swiper_pluginAppObj_124_414 .swiper-container{
+	display: inline-block;
+	vertical-align: middle;
+	
+}
+
+#swiper_pluginAppObj_124_414 .swiper-slide{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	display: block;
+	overflow: hidden;
+}
+
+#swiper_pluginAppObj_124_414 .swiper-slide a,
+#swiper_pluginAppObj_124_414 .swiper-slide .slide-content-wrapper{
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+#swiper_pluginAppObj_124_414 .swiper-slide .slide-content{
+	display: table-cell;
+	vertical-align: middle;text-align: center;
+}
+
+#swiper_pluginAppObj_124_414 .swiper-slide .slide-description{
+
+	font-family: Poppins;
+    font-size: 14pt;
+    font-weight: normal;
+    font-style: normal;
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(64,64,64, 0.8);
+	display: inline-block;
+	padding: 7pt;
+	
+	margin: 10px; ;
+}
+
+#swiper_pluginAppObj_124_414 .swiper-pagination-bullet-active {
+    background: rgba(255, 255, 255, 1);
+	opacity: 1!important;
+}
+
+#swiper_pluginAppObj_124_414 .swiper-pagination-bullet {
+    background: rgba(255, 255, 255, 1);
+	opacity: 0.4;
+}
+
+#swiper_pluginAppObj_124_414 .swiper-button-prev {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'rgb%28255%2C255%2C255%29'%2F%3E%3C%2Fsvg%3E");
+    
+	
+}
+
+#swiper_pluginAppObj_124_414 .swiper-button-next {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'rgb%28255%2C255%2C255%29'%2F%3E%3C%2Fsvg%3E");
+    
+	
+}
+
+#swiper_pluginAppObj_124_414 .swiper-pagination{
+	left: 0;
+    width: 100%;
+	bottom: 0;
+}
+
+#swiper_pluginAppObj_124_414 .swiper-container .swiper-pagination{
+	bottom: 10px;
+}
+
+#swiper_pluginAppObj_124_414.vertical .swiper-pagination-bullets {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    width: 100%;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+	
+}
+
+#swiper_pluginAppObj_124_414.vertical .swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 5px;
+    display: inline-block
+}
+
+#swiper_pluginAppObj_124_414 .swiper-pagination .swiper-pagination-bullet{
+	margin: 0 5px;
+}
+
+_:-ms-fullscreen, :root .swiper-wrapper { 
+     
+}
+
+/*AG fix WXPA-795*/
+.animable:not(.animated) .swiper-container-cube .swiper-slide-active,
+.animable:not(.animated) .swiper-container-cube .swiper-slide-next,
+.animable:not(.animated) .swiper-container-cube .swiper-slide-prev,
+.animable:not(.animated) .swiper-container-cube .swiper-slide-next + .swiper-slide {
+  visibility: hidden;
+}

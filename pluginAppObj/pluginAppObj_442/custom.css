@@ -1,0 +1,172 @@
+
+#pluginAppObj_442_container{
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: relative;
+    width: 320px;
+    max-width: 100%;
+    height: 320px;
+    
+}
+
+#pluginAppObj_442_container.rem-highlight {
+    -webkit-tap-highlight-color: transparent; /* for removing the highlight */
+}
+
+#pluginAppObj_442 .pluginAppObj_442-button {
+    box-sizing: border-box;
+    width: 100%;
+    height: 320px;
+    color: rgba(255, 255, 255, 1);
+    background-color: transparent;
+    font-family: Poppins;
+    font-size: 14pt;
+    font-weight: normal;
+    font-style: normal;
+
+
+    border-width: 1px; ;
+
+    border-style: solid;
+    border-color: transparent;
+
+    border-radius: 0px; ;
+
+    text-align: center;
+    text-decoration: none;
+    line-height: 16pt;
+    display:block;
+    position: relative;
+    overflow:hidden;
+    
+}
+
+
+
+#pluginAppObj_442 .flex-container {
+    height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:   row 
+}
+
+#pluginAppObj_442 .flex-item {
+    max-height:100%;    
+    max-width: 100%;
+}
+
+#pluginAppObj_442 .item-txt {
+    order:1;
+    display: none;
+}
+
+#pluginAppObj_442 .item-icon {
+    order:2;
+    flex: 0 0 1;
+    display: none;
+
+    margin: 5px; ;
+}
+
+#pluginAppObj_442 .div-icon {
+    background-image: url('../../');
+    background-repeat: no-repeat;
+    background-size: contain;
+        
+}
+
+#pluginAppObj_442 .button-wrapper-over {
+    background-color: rgba(255, 255, 255, 1);
+    border-style: solid;
+    border-color: transparent;
+    color: rgba(14, 131, 205, 1);
+    font-weight:normal;
+	background-image: url('../../pluginAppObj/pluginAppObj_442/saison2026Piano02.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+#pluginAppObj_442 .button-wrapper-over.fade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 300ms;
+}
+
+#pluginAppObj_442 .button-wrapper-over.fade.animated {
+    opacity: 1;
+}
+
+#pluginAppObj_442 .sweeper {
+    position: absolute;
+    bottom: 0; left: 0; width: 100%; height: 0;
+    overflow: hidden;
+    transition: all 300ms;
+}
+
+#pluginAppObj_442 .sweeper .button-wrapper-over{
+    position: absolute;
+    bottom:0;
+}
+
+#pluginAppObj_442 .sweeper.animated {
+    height: 100%;
+}
+
+#pluginAppObj_442 .shutter {
+    position: absolute;
+    overflow: hidden;
+    transition: all 300ms;
+    transform: translate3d(0, 0, 0);
+    	top: 50%; left: 50%; border-radius: 100%; width: 0; height: 0;
+}
+
+#pluginAppObj_442 .shutter .button-wrapper-over {
+    position: absolute;    
+    transition: all 300ms;
+    top: 0; left: 0; transform: translate3d(-50%, -50%, 0);
+}
+
+#pluginAppObj_442 .shutter.animated {
+    left: 0; width: 100%; top: 0; height: 100%; border-radius: 0;
+}
+
+#pluginAppObj_442 .shutter.animated .button-wrapper-over {
+    transform: translate3d(0, 0, 0);
+}
+
+#pluginAppObj_442 .button-wrapper-over.rotate-under {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#pluginAppObj_442 .rotate-u:not(.rotate-under) {
+    transform-origin: 50% 100%;
+    transform: rotate3d(0, 0, 0, 0deg);
+    transition: all 300ms;
+}
+
+#pluginAppObj_442 .rotate-u:not(.rotate-under).animated {
+    transform: rotate3d(-1, 0, 0, 85deg);
+}
+
+#pluginAppObj_442 .button-wrapper-over.rotate-over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: 50% 0;
+    transform: rotateX(270deg);
+    transition: all 300ms;
+}
+
+#pluginAppObj_442 .button-wrapper-over.rotate-over.animated {
+    transform: rotateX(0);
+}

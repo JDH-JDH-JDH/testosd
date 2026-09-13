@@ -1,0 +1,188 @@
+.booklet_container.zoom-active{
+	overflow: hidden !important;
+}
+
+.booklet_container .page_img{
+	width: 100%;
+	height: auto;
+}
+
+.booklet_container .loading_page_icon {
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.booklet_container .loading_booklet_icon {
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 30px auto;
+}
+
+#fs_wrapper_pluginAppObj_90_02 {
+	overflow: hidden;
+}
+
+#fs_wrapper_pluginAppObj_90_02 .booklet_wrapper{
+	position: relative;
+	margin: 0 auto;
+}
+#fs_wrapper_pluginAppObj_90_02 .booklet_container{
+	position: absolute;
+	margin: auto!important;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+#fs_wrapper_pluginAppObj_90_02.onfullscreen{
+	background-color: rgba(0,0,0,0.9);
+}
+
+#fs_wrapper_pluginAppObj_90_02.onfullscreen .booklet_container{
+	margin-top: 0!important;
+	position: relative;
+}
+
+#pluginAppObj_90_02 .thumb_container{
+	display: none;
+	position: relative;
+	float: left;
+	margin: 2px;
+	padding: 1px;
+}
+#pluginAppObj_90_02 .thumb_container .thumb_img{
+	max-width: 100%;
+	max-height: 100%;
+	max-width: calc(100% - 4px);
+	max-height: calc(100% - 4px);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	border: 2px solid transparent;
+	cursor: pointer;
+}
+#pluginAppObj_90_02 .thumb_container.active .thumb_img{
+	border: 2px solid rgba(136, 136, 136, 1);
+}
+
+#fs_wrapper_pluginAppObj_90_02 .booklet_control_bar{
+	display: none;
+	width: 1150px;
+	max-width: 100%;
+	margin: 0 auto;
+	height: 30px;
+	background-color: rgba(136, 136, 136, 1);
+}
+
+#pluginAppObj_90_02 .thumbs_slider{
+	display: block;
+	width: 1150px;
+	max-width: 100%;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+#pluginAppObj_90_02 .booklet_thumbs_wrapper{
+	width: 1150px;
+	max-width: calc(100% - 30px);
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	float: left;
+}
+#pluginAppObj_90_02 .booklet_thumbs_container{
+	position: relative;
+	left: 0;
+}
+#pluginAppObj_90_02 .thumbs_control{
+	width: 15px;
+	vertical-align: middle;
+	position: relative;
+	display: none;
+	font-weight: 900;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+	color: rgba(136, 136, 136, 1);
+	background-color: transparent;
+}
+#pluginAppObj_90_02 .thumbs_control:hover{
+	color: #ffffff;
+	background-color: rgba(136, 136, 136, 1);
+}
+
+#fs_wrapper_pluginAppObj_90_02 .booklet_control_bar .control_btn {
+	display: block;
+	width: 26px;
+	height: 26px;
+	margin: 2px;
+	float: left;
+	background-size: contain;
+	cursor: pointer;
+}
+
+#fs_wrapper_pluginAppObj_90_02 .booklet_control_bar .fullscreen_btn,
+#fs_wrapper_pluginAppObj_90_02 .booklet_control_bar .download_btn,
+#fs_wrapper_pluginAppObj_90_02 .booklet_control_bar .zoom_out_btn,
+#fs_wrapper_pluginAppObj_90_02 .booklet_control_bar .zoom_in_btn{
+	float: right;
+}
+
+#fs_wrapper_pluginAppObj_90_02 .booklet_control_bar .control_btn.prev_btn{background-image:url('../../appsresources/images/prev.png');}#fs_wrapper_pluginAppObj_90_02 .booklet_control_bar .control_btn.next_btn{background-image:url('../../appsresources/images/next.png');}#fs_wrapper_pluginAppObj_90_02 .booklet_control_bar .control_btn.download_btn{background-image:url('../../appsresources/images/download.png');}#fs_wrapper_pluginAppObj_90_02 .booklet_control_bar .control_btn.fullscreen_btn{background-image:url('../../appsresources/images/enter-fs.png');}#fs_wrapper_pluginAppObj_90_02.onfullscreen .booklet_control_bar .control_btn.fullscreen_btn{background-image:url('../../appsresources/images/exit-fs.png');}#fs_wrapper_pluginAppObj_90_02 .booklet_control_bar .control_btn.zoom_out_btn{background-image:url('../../appsresources/images/zoom-out.png');display: none;}#fs_wrapper_pluginAppObj_90_02 .booklet_control_bar .control_btn.zoom_in_btn{background-image:url('../../appsresources/images/zoom-in.png');display: none;}
+#fs_wrapper_pluginAppObj_90_02 .booklet_control_bar .download_btn a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+#fs_wrapper_pluginAppObj_90_02 .booklet .b-counter{
+	background: rgba(136, 136, 136, 1);
+	color: #fff;
+}
+
+#fs_wrapper_pluginAppObj_90_02 .booklet .b-wrap-left,
+#fs_wrapper_pluginAppObj_90_02 .booklet .b-wrap-right{
+	background-color: rgba(255, 255, 255, 1);
+}
+/*gradient opacity from 0.05 to 0 at 50% */
+#fs_wrapper_pluginAppObj_90_02 .booklet .b-wrap-left{
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wNSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+}
+/*gradient opacity from 0.10 to 0 at 50% */
+#fs_wrapper_pluginAppObj_90_02 .booklet .b-wrap-right{
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+}
+
+/* ---- ZOOM ---- */
+
+.booklet_container.zoom-active{
+	overflow: hidden !important;
+}
+
+.booklet_container .zoomed_img{
+	position: absolute;
+	z-index: 41;
+	cursor: default; /* fallback if grab cursor is unsupported */
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+/* on fullscreen mode the menu will not appear over catalog */
+body.catalog-viewer-in-fullscreen #imMnMn{
+	display: none !important;
+}
