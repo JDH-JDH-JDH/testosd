@@ -1,6 +1,6 @@
 Ce dossier contient la version autonome du site de l’Orchestre Symphonique des Dômes.
 
-Pour l’ouvrir sur l’ordinateur, ouvrir index.html. Les 84 pages comprennent la page de recherche. Les pages, styles, scripts, polices, documents et fichiers audio nécessaires sont inclus dans ce dossier. Les vidéos restent sur YouTube ; les liens vers la billetterie, les artistes et les réseaux sociaux sont conservés. La carte de contact utilise Google Maps.
+Pour l’ouvrir sur l’ordinateur, ouvrir index.html. Les 84 pages comprennent la page de recherche. Les pages, styles, scripts, polices, documents et fichiers audio nécessaires sont inclus dans ce dossier. Les vidéos restent sur YouTube ; les liens vers la billetterie et les artistes sont conservés. Les icônes des réseaux sociaux et leurs liens ont été supprimés de toutes les pages. La carte de contact utilise Google Maps.
 
 Le formulaire de contact prépare un e-mail dans la messagerie du visiteur, à destination de osdomes.contact@gmail.com. Aucun serveur de l’ancien site n’est utilisé. Le destinataire peut être modifié dans contact-config.js. Le bouton n’affiche pas de confirmation d’envoi : le visiteur doit envoyer son message dans sa messagerie.
 
