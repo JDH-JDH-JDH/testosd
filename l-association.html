@@ -45,27 +45,36 @@
 #imContent.osd-association-content { display: block; min-width: 0; }
 .osd-association-body {
   display: grid;
-  grid-template-columns: 160px minmax(0, 1fr) 160px;
-  gap: 20px;
-  align-items: center;
-  max-width: 1120px;
-  margin: 24px auto 36px;
-  padding: 0 16px;
+  grid-template-columns: clamp(80px, 7vw, 120px) minmax(0, 0.9fr) minmax(0, 1.9fr);
+  gap: 24px;
+  align-items: start;
+  max-width: 1680px;
+  margin: 8px auto 24px;
+  padding: 0 24px;
   box-sizing: border-box;
 }
-.osd-association-violin { display: block; width: 160px; height: auto; }
-.osd-association-objectives { grid-column: 2; font-size: 11pt; line-height: 1.7; text-align: left; }
-.osd-association-objectives p { margin: 0 0 16px; }
+.osd-association-poster { grid-column: 3; grid-row: 1; display: block; min-width: 0; text-align: center; color: #a71720; text-decoration: none; }
+.osd-association-poster img { display: block; width: 100%; height: auto; box-shadow: 0 3px 16px rgba(0, 0, 0, 0.12); }
+.osd-association-poster span { display: block; margin-top: 10px; font-size: 14px; }
+.osd-association-poster:hover span { text-decoration: underline; }
+.osd-association-poster:focus-visible { outline: 3px solid #a71720; outline-offset: 5px; }
+.osd-association-logo { grid-column: 1; grid-row: 1; display: block; width: 120px; max-width: 100%; height: auto; margin: 0 auto; }
+.osd-association-objectives { grid-column: 2; grid-row: 1; min-width: 0; color: #202039; font-size: clamp(19px, 1.5vw, 24px); font-weight: 600; line-height: 1.6; text-align: left; }
+.osd-association-objectives p { margin: 0 0 24px; color: #a71720; font-size: clamp(22px, 1.75vw, 28px); font-weight: 700; line-height: 1.45; }
 .osd-association-objectives ul { list-style: disc; padding-left: 22px; margin: 0; }
-.osd-association-objectives li { margin: 0 0 8px; }
+.osd-association-objectives li { margin: 0 0 16px; }
+.osd-association-objectives li::marker { color: #a71720; }
 #imContent.osd-association-content #imCell_412 { max-width: 1120px; margin: 0 auto; }
 @media (max-width: 959.9px) {
-  .osd-association-body { grid-template-columns: 100px minmax(0, 1fr) 100px; gap: 16px; }
-  .osd-association-violin { width: 100px; }
+  .osd-association-body { grid-template-columns: minmax(0, 1fr) minmax(0, 1.6fr); padding: 0 16px; }
+  .osd-association-logo { grid-column: 1; grid-row: 1; width: 100px; }
+  .osd-association-objectives { grid-column: 1; grid-row: 2; }
+  .osd-association-poster { grid-column: 2; grid-row: 2; }
 }
 @media (max-width: 719.9px) {
   .osd-association-body { display: block; max-width: 600px; }
-  .osd-association-violin { display: none; }
+  .osd-association-logo { margin-bottom: 24px; }
+  .osd-association-poster { margin: 28px auto 0; }
 }
 </style>
 </head>
@@ -562,10 +571,8 @@ $(function () {$('#imStickyBar_imMenuObject_01_container ul li').not('.imMnMnSep
 					<div id="imContentGraphics"></div>
 					<main id="imContent" class="osd-association-content">
 <a id="imGoToCont"></a>
-<div id="imCell_10" class=""> <div id="imCellStyleGraphics_10" ></div><div id="imCellStyleBorders_10"></div><div id="imObjectImage_34_10"><div id="imObjectImage_34_10_container"><img src="assets/250PXhauteur.jpg" alt="logo de l&#39;orchestre symphonique des domes" width="328" height="250" />
-						</div></div></div>
 <div class="osd-association-body">
-  <img class="osd-association-violin" src="images/violonAssociation_inom7uhd.jpg" alt="Violon de l’orchestre des Dômes" width="160" height="355">
+  <img class="osd-association-logo" src="assets/250PXhauteur.jpg" alt="Logo de l’Orchestre Symphonique des Dômes" width="328" height="250">
   <div class="osd-association-objectives">
     <p>L’orchestre créé en 1984 sous forme associative, a pour objectifs :</p>
     <ul>
@@ -576,6 +583,10 @@ $(function () {$('#imStickyBar_imMenuObject_01_container ul li').not('.imMnMnSep
       <li>La découverte du répertoire contemporain</li>
     </ul>
   </div>
+  <a class="osd-association-poster" href="assets/affiche-benevoles-paysage.png" target="_blank" rel="noopener noreferrer">
+    <img src="assets/affiche-benevoles-paysage.png" alt="Venez contribuer au développement de la musique classique en Auvergne. L’Orchestre Symphonique des Dômes recherche des bénévoles pour la billetterie, la communication, la publicité, l’accueil et la régie d’orchestre. Contact : 06 45 69 77 60 — jd-osd@hotmail.com." width="1536" height="1024">
+    <span>Agrandir l’affiche (nouvel onglet)</span>
+  </a>
 </div>
 
 </main>

@@ -1,0 +1,6 @@
+/_site/
+/tmp/
+/.agents/
+/.codex/
+Thumbs.db
+.DS_Store
